@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Tillana&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+    color: #777
+}
+
+@media(prefers-color-scheme: dark) {
+    body {
+        background: #333;
+        color: white;
+    }
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rgb(134, 126, 126);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header {
+    background-color: black;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.name {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Fruktur', cursive;
+    font-weight: normal;
+    color: lightgray;
+    border-bottom: solid 1px lightgray;
+}
+
+.name-large {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Fruktur', cursive;
+    font-weight: normal;
+    color: rgb(221, 216, 216);
+
+}
+
+.section-header {
+    font-family: 'Tillana', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5em;
+    color: whitesmoke;
+}
+
+.main-footer {
+    background-color: slategray;
+    color: white;
+    padding: .25em 0;
+    margin: .5em;
+    margin-top: 10em
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 65px;
+    height: 60px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.image {
+    border-radius: 20%;
+}
+
+.link a:hover {
+    background-color: rgb(85, 83, 83);
+    border-radius: 20%;
+}
+
+.intro {
+    color: white;
+    background-color: black;
+    margin: .5em;
+    max-width: fit-content;
+    max-height: fit-content;
+    display: inline-flex;
+    font-size: 16px;
+}
+
+.res-header {
+    font-family: 'Tillana', cursive;
+    font-weight: Normal;
+    text-align: left;
+    font-size: 1.5em;
+    color: whitesmoke;
+    margin: .25em;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.Res-content {
+    color: white;
+    margin-left: .5em;
+    max-width: fit-content;
+    max-height: fit-content;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.section-header-2 {
+    font-family: 'Tillana', cursive;
+    font-weight: regular;
+    text-align: center;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+.about-me {
+    color: white;
+    margin-inline: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-align: center;
+    font-size: 16px;
+}
